@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidsample.menu_textcolorchange.MainActivity">
+    <item
+        android:id="@+id/Color"
+         android:title="Text Color"
+        app:showAsAction="always" >
+    <menu>
+        <group
+            android:id="@+id/group1"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/submenu1"
+                android:title="Red"/>
+            <item
+                android:id="@+id/submenu2"
+                android:title="Green"/>
+            <item
+                android:id="@+id/submenu3"
+                android:title="Blue"/>
+            </group>
+        </menu>
+    </item>
+</menu>
